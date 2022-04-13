@@ -10,7 +10,7 @@ class UnpackArchief(object):
         if shutil.unpack_archive(self.fileLocation,self.extractLocation):
             print(f"Unpacked {self.archiveName}")
         else:
-            print(f"Could not unpack properly the archive: {archiveName}")
+            print(f"Could not unpack properly the archive: {self.archiveName}")
 try:
     while True:
         gui = pyautogui.prompt(text="Enter folder name",title="Locate Folders",default=None)
