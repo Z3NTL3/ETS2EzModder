@@ -4,7 +4,7 @@ import asyncio, shutil
 from pathlib import Path
 
 # ETS2 Install All Mods At Once
-ets2Location = "Documents\Euro Truck Simulator 2"
+ets2Location = "Documents\\Euro Truck Simulator 2"
 class UnpackArchief(object):
     def __init__(self,archiveName,fileLocation,extractLocation):
         if shutil.unpack_archive(self.fileLocation,self.extractLocation):
