@@ -1,4 +1,3 @@
-import pyperclip
 import pyautogui
 import os,sys
 import asyncio, shutil
